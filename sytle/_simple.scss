@@ -1,0 +1,184 @@
+.simple {
+  margin-top: 200px;
+}
+
+.simple .simple__title {
+  color: #2b2b2b;
+  max-width: 653px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 155.556% */
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.simple__min-box-title {
+  margin: 20px 0px;
+  font-size: 18px;
+}
+.sipmple__min-boxs {
+  width: 56px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: rgb(137, 7, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.simple__box {
+  margin: 15px 0px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  gap: 21px;
+}
+/* Center the text within its container */
+
+.simple__min-box {
+  max-width: 260px;
+  margin: 0px 2px;
+  min-height: 300px;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 20px 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.simple__min-box-whan:hover {
+  background: rgba(108, 87, 219, 0.87);
+}
+
+.simple__min-box:hover + .simple__min-boxs {
+  background-color: red;
+}
+
+.simple__min-box-twoo:hover {
+  background-color: rgb(0, 166, 255);
+}
+
+.simple__min-box:hover + .simple__min-boxs {
+  background: red;
+}
+
+.simple__min-box-three:hover {
+    background-color: #ff7277;
+}
+
+.simple__min-box-four:hover {
+    background-color: #f8c42c;
+}
+
+.simple__min-box.active {
+  background-color: rgb(225, 0, 255);
+  transition: background-color 0.3s ease; /* Animatsiyani qo'shish uchun */
+}
+
+.simple__min-box.active .sipmple__min-boxs {
+  background-color: white;
+  transition: background-color 0.3s ease; /* Animatsiyani qo'shish uchun */
+}
+
+.simple__min-box.active .simple__min-box {
+  stroke: rgb(8, 175, 33);
+  transition: background-color 0.3s ease; /* Animatsiyani qo'shish uchun */
+}
+
+.simple__min-box.active .simple__min-box-title {
+  color: white;
+  /* Animatsiyani qo'shish uchun */
+}
+
+.simple__min-box.active .simple__text {
+  color: white;
+}
+
+.sipmple__min-boxs-tree {
+  background-color: #ff7277;
+}
+
+.sipmple__min-boxs-four {
+  background-color: #f8c42c;
+}
+
+.sipmple__min-boxs-twoo {
+  background-color: #0baaee;
+}
+
+.simple__min-box {
+  gap: 50px;
+}
+
+.simple__simple-min-box-title {
+  color: #2b2b2b;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.2px;
+}
+
+.simple__text {
+  color: #646464;
+
+  font-family: " DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 560px) {
+  .simple__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .simple__text {
+    color: #646464;
+
+    font-family: " DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    letter-spacing: 0.3px;
+  }
+}
+
+@media (max-width: 770px) {
+  .simple__min-box {
+    padding: 30px 66px;
+  }
+}
+
+@media (max-width: 992px) {
+  .simple__min-box {
+    // background-color: red;
+    margin: 0px 120px;
+  }
+}
+
+@media (max-width: 574px) {
+  .simple__min-box {
+    // background-color: red;
+    margin: 0px;
+  }
+}
+.simple__min-box:hover .sipmple__min-boxs {
+    background-color: white; /* Yashil rangni o'zingiz tanlang */
+}

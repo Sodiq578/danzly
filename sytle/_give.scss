@@ -1,0 +1,172 @@
+.give{
+    width: 100%;
+    margin-top: 200px;
+}
+
+
+.give__title{
+    color: #2B2B2B;
+
+font-family: "Ubuntu";
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: 70px; /* 155.556% */
+text-transform: capitalize;
+}
+
+.give__text{
+    // width: 523px;
+color: #808095;
+
+font-family: DM Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 180% */
+margin: 40px 0px;
+}
+
+.give__img{
+    width: 80%;
+
+}
+
+.give__title-1::after {
+    content: url("../images/linebottom.svg");
+    position: absolute;
+    left: -400px;
+    top: 100px;
+    width: 20px; /* Rasimning o'lchamini o'zgartiring */
+    height: 20px; /* Rasimning balandligini o'zgartiring */
+}
+
+.give__title-2::after{
+    content: url("../images/linetwoo.svg");
+    position: absolute;
+    left: 450px;
+    top: -150px;
+    width: 20px; /* Rasimning o'lchamini o'zgartiring */
+    height: 20px;
+}
+
+.give__box-twoo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 1200px) {
+ 
+    .give__img{
+       width: 400px;
+    }
+
+    .simple .simple__title{
+        color: #2B2B2B;
+    max-width: 653px;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px; /* 155.556% */
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    }
+    }
+
+
+ 
+ @media (max-width: 1000px) {
+ 
+  .give__img{
+     width: 300px;
+  }
+  }
+
+
+  @media (max-width: 802px) {
+ .give__img{
+    width: 300px;
+ }
+
+.give__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+    }
+  
+
+
+    @media (max-width: 769px) {
+        .give__img{
+           width:359px;
+        }
+       
+
+
+       .give__box{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           margin: 0 auto;
+           align-items: center;
+           padding: 0px;
+       
+       }
+
+       .have__box h3{
+        font-size: 27px;
+        width: 56%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+       }
+
+        .give__text{
+            width: 100%;
+            font-size: 18px;
+        }
+       .give__title{
+        color: #2B2B2B;
+        // width: 250px;
+        font-family: "Ubuntu";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        // line-height: 70px; /* 155.556% */
+        text-transform: capitalize;
+       }
+
+
+           }
+
+
+
+       .give__twoo-img{
+        margin-top: 100px;
+       }
+
+
+       
+@media (max-width: 400px) {
+ 
+    .give{
+
+        width: 80%;
+    }
+    .give__img{
+       width: 200px;
+    }
+    .give__stars{
+        width: 100px;
+    }
+}

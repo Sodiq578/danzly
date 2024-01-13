@@ -1,0 +1,303 @@
+.nav__box {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+.header__bottom-title {
+  color: #2b2b2b;
+  font-family: "Gilroy-Bold";
+width: 70%;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  width: 70%;
+  
+}
+
+.login{
+    margin-right: 20px;
+}
+
+.header__bottom-title-box{
+    top: 60px;
+}
+
+.header__bottom-text {
+  color: rgba(43, 43, 43, 0.81);
+  max-width: 500px;
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  // letter-spacing: 0.22px;
+  padding: 0px;
+  margin: 31px 0px;
+}
+
+#header__bottom-a{
+    margin-left: 20px;
+  }
+
+
+  .header__bottom-box-a{
+    margin-left: 20px;
+  }
+#nav__list {
+    padding: 0 0 0 211px;
+}
+#header__bottom-a {
+  // color: white;
+}
+
+.nav__list {
+  padding: 0 0 0 50px;
+}
+
+.header__bottom-big-box2 {
+  position: relative;
+  &::before {
+    content: "";
+    width: 623px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    left: 59%;
+    // top: -50px;
+    background-image: url(../images/headerimg.jpg);
+    background-size: cover;
+    display: block;
+  }
+}
+
+.header__bottom-big-box {
+  margin-top: 80px;
+}
+
+.header__bottom-btn {
+    width: 197px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #6c57db;
+
+
+
+
+  color: #FFF;
+
+font-family: "Ubuntu";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media (max-width: 1200px) {
+  #nav__list {
+    padding: 0 0 0 50px;
+  }
+  .header__bottom-big-box2 {
+    &::before {
+   display: none; /* Ensure the pseudo-element is a block element */
+    }
+  }
+
+  .header__box-twoo {
+    &::before {
+      display: none; /* Ensure the pseudo-element is a block element */
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header__box-twoo {
+    display: none;
+  }
+
+  .header__bottom-title {
+    color: #2b2b2b;
+    font-family: "Gilroy-Bold";
+
+    font-size: 50px;
+    font-style: normal;
+
+    /* Increase the font size for larger screens */
+  }
+
+  .nav__item-form {
+    display: flex;
+    flex-direction: column;
+    // padding: 0px;
+  }
+
+  #nav__list {
+    padding: 0px;
+  }
+  .header__bottom-big-box2 {
+    &::before {
+      display: none;
+    }
+  }
+
+
+  
+
+  .brands__box {
+    margin-top: -50px;
+  }
+
+  .give__img-twoo{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header__box-twoo {
+    display: none;
+  }
+
+
+  #header__bottom-title::before{
+    // content: url(../images/line.svg);
+   display: none;
+}
+  .header__bottom-title {
+    color: #2b2b2b;
+    font-family: "Gilroy-Bold";
+
+    font-size: 40px;
+    font-style: normal;
+    // color: red;
+
+    /* Increase the font size for larger screens */
+  }
+
+  .nav__item-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+ .nav__item-form .btn-signUp {
+    width: 119px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #6C57DB;
+
+
+  }
+
+  form a {
+    margin: 10px 0px;
+  }
+  #nav__list {
+    padding: 0px;
+  }
+  .header__bottom-big-box {
+    &::before {
+      display: none;
+    }
+  }
+
+  .simple__min-box-title {
+    height: 50px;
+    margin: 10px 0px 10px 0;
+    // background-color: red;
+  }
+}
+
+
+@media (max-width: 1200px) {
+    .give__title-1::after {
+        display: none; /* Rasimning balandligini o'zgartiring */
+      }
+      
+      .give__title-2::after{
+        display: none;
+      }
+}
+
+@media (max-width: 600px) {
+  .brands__box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+
+
+  .have__box h3{
+    font-size: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   }
+  #header__bottom-title {
+    font-size: 30px;
+    // color: red;
+  }
+
+  .btn-link{
+    font-size: 14px;
+  }
+
+  .brands__box-img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .header__bottom-text{
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 400px) {
+   
+   .header__bottom-btn{
+    width: 160px;
+    // background-color: red;
+  padding: 10px 20px;
+
+   }
+
+   #header__bottom-a{
+    margin-left: 5px !important;
+  }
+
+  .brands__box-img{
+    margin: 50px 0;
+  }
+  }
+
+
+
+
+  /* Birinchi elementga hover bo'lganda ikkinchi elementning stili o'zgargan bo'ladi */
+.simple__min-box:hover + .simple__min-boxs {
+    /* Yangi stilni bu yerda belgilang */
+    background-color: red;
+}
+
+
+
+#header__bottom-title::before{
+    content: url(../images/line.svg);
+    position: absolute;
+    left:18px;
+    top: 240px;
+}

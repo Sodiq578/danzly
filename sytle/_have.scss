@@ -1,0 +1,57 @@
+.have h3{
+
+    color: #000;
+
+text-align: center;
+font-family: "Ubuntu";
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.3px;
+line-height: 1.5;
+width: 50%;
+text-align: center;
+// display: none;
+}
+
+
+.have{
+    margin:  0 auto;
+    // width: 542px;
+height: 231px;
+margin-top: 100px;
+}
+
+
+.have__box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.have__box a, h3, button{
+margin: 20px 0px;
+}
+
+
+@media (max-width: 1200px) {
+    .have h3{
+
+        color: #000;
+    
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    width: 50%;
+    text-align: center;
+    // display: none;
+    }
+    
+    
+    }
