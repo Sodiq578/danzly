@@ -3,27 +3,26 @@
   justify-content: space-around !important;
 }
 
-.navbar{
-    padding: 0px;
+.navbar {
+  padding: 0px;
 }
 
 .header__bottom-title {
   color: #2b2b2b;
   font-family: "Gilroy-Bold";
-width: 70%;
+  width: 70%;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
   width: 70%;
-  
 }
 
-.login{
-    margin-right: 20px;
+.login {
+  margin-right: 20px;
 }
 
-.header__bottom-title-box{
-    top: 60px;
+.header__bottom-title-box {
+  top: 60px;
 }
 
 .header__bottom-text {
@@ -39,16 +38,15 @@ width: 70%;
   margin: 31px 0px;
 }
 
-#header__bottom-a{
-    margin-left: 20px;
-  }
+#header__bottom-a {
+  margin-left: 20px;
+}
 
-
-  .header__bottom-box-a{
-    margin-left: 20px;
-  }
+.header__bottom-box-a {
+  margin-left: 20px;
+}
 #nav__list {
-    padding: 0 0 0 211px;
+  padding: 0 0 0 211px;
 }
 #header__bottom-a {
   // color: white;
@@ -79,23 +77,13 @@ width: 70%;
 }
 
 .header__bottom-btn {
-    width: 197px;
-  padding: 10px 40px;
+  width: 197px;
+  padding: 15px 40px;
   border: none;
   border-radius: 5px;
   color: white;
   background-color: #6c57db;
-
-
-
-
-  color: #FFF;
-
-font-family: "Ubuntu";
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  height: 60px;
 }
 
 @media (max-width: 1200px) {
@@ -104,7 +92,7 @@ line-height: normal;
   }
   .header__bottom-big-box2 {
     &::before {
-   display: none; /* Ensure the pseudo-element is a block element */
+      display: none; /* Ensure the pseudo-element is a block element */
     }
   }
 
@@ -145,14 +133,11 @@ line-height: normal;
     }
   }
 
-
-  
-
   .brands__box {
     margin-top: -50px;
   }
 
-  .give__img-twoo{
+  .give__img-twoo {
     width: 100%;
   }
 }
@@ -162,11 +147,10 @@ line-height: normal;
     display: none;
   }
 
-
-  #header__bottom-title::before{
+  #header__bottom-title::before {
     // content: url(../images/line.svg);
-   display: none;
-}
+    display: none;
+  }
   .header__bottom-title {
     color: #2b2b2b;
     font-family: "Gilroy-Bold";
@@ -184,14 +168,12 @@ line-height: normal;
     padding: 0px;
   }
 
- .nav__item-form .btn-signUp {
+  .nav__item-form .btn-signUp {
     width: 119px;
-height: 56px;
-flex-shrink: 0;
-border-radius: 7px;
-background: #6C57DB;
-
-
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #6c57db;
   }
 
   form a {
@@ -213,15 +195,14 @@ background: #6C57DB;
   }
 }
 
-
 @media (max-width: 1200px) {
-    .give__title-1::after {
-        display: none; /* Rasimning balandligini o'zgartiring */
-      }
-      
-      .give__title-2::after{
-        display: none;
-      }
+  .give__title-1::after {
+    display: none; /* Rasimning balandligini o'zgartiring */
+  }
+
+  .give__title-2::after {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -229,24 +210,20 @@ background: #6C57DB;
     display: flex;
     flex-direction: column;
   }
-  
 
-  
-
-
-  .have__box h3{
+  .have__box h3 {
     font-size: 20px;
     width: 80%;
     display: flex;
     align-items: center;
     text-align: center;
-   }
+  }
   #header__bottom-title {
     font-size: 30px;
     // color: red;
   }
 
-  .btn-link{
+  .btn-link {
     font-size: 14px;
   }
 
@@ -255,7 +232,7 @@ background: #6C57DB;
     height: 150px;
   }
 
-  .header__bottom-text{
+  .header__bottom-text {
     font-size: 16px;
   }
   h3 {
@@ -263,41 +240,142 @@ background: #6C57DB;
   }
 }
 
-
-
-
 @media (max-width: 400px) {
-   
-   .header__bottom-btn{
+  .header__bottom-btn {
     width: 160px;
     // background-color: red;
-  padding: 10px 20px;
+    padding: 10px 20px;
+  }
 
-   }
-
-   #header__bottom-a{
+  #header__bottom-a {
     margin-left: 5px !important;
   }
 
-  .brands__box-img{
+  .brands__box-img {
     margin: 50px 0;
   }
-  }
+}
 
-
-
-
-  /* Birinchi elementga hover bo'lganda ikkinchi elementning stili o'zgargan bo'ladi */
+/* Birinchi elementga hover bo'lganda ikkinchi elementning stili o'zgargan bo'ladi */
 .simple__min-box:hover + .simple__min-boxs {
-    /* Yangi stilni bu yerda belgilang */
-    background-color: red;
+  /* Yangi stilni bu yerda belgilang */
+  background-color: red;
+}
+
+#header__bottom-title::before {
+  content: url(../images/line.svg);
+  position: absolute;
+  left: 18px;
+  top: 240px;
 }
 
 
 
-#header__bottom-title::before{
-    content: url(../images/line.svg);
-    position: absolute;
-    left:18px;
-    top: 240px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  width: 100%;
+  min-width: 100%;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-item {
+    min-width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    min-width: 33.33%;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.swiper-slide div{
+  margin: 0 auto;
+}
+
+
+
+.carousel-item {
+  width: 100%;
+  min-width: 100%;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-item {
+    min-width: 50%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .carousel-item {
+    min-width: 296px; /* Set the width for screens smaller than 700px */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    min-width: 33.33%;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .swiper-slide img {
+    width: 80%; /* O'zgartirilgan rasmlar o'lchamini belgilang */
+    height: auto; /* Tasvirning to'g'ri o'lchamga kelsin */
+  }
 }

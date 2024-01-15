@@ -58,17 +58,12 @@
   background: rgba(108, 87, 219, 0.87);
 }
 
-.simple__min-box:hover + .simple__min-boxs {
-  background-color: red;
-}
+
 
 .simple__min-box-twoo:hover {
   background-color: rgb(0, 166, 255);
 }
 
-.simple__min-box:hover + .simple__min-boxs {
-  background: red;
-}
 
 .simple__min-box-three:hover {
     background-color: #ff7277;
@@ -76,11 +71,17 @@
 
 .simple__min-box-four:hover {
     background-color: #f8c42c;
+    
 }
 
-.simple__min-box.active {
-  background-color: rgb(225, 0, 255);
-  transition: background-color 0.3s ease; /* Animatsiyani qo'shish uchun */
+
+
+.simple__min-box:hover .simple__min-box-title {
+    color: white;
+}
+
+.simple__min-box:hover .simple__text {
+    color: white;
 }
 
 .simple__min-box.active .sipmple__min-boxs {
@@ -138,6 +139,11 @@
   font-weight: 400;
   line-height: 24px; /* 160% */
   letter-spacing: 0.3px;
+}
+
+
+.carousel__Img{
+    width: 100%;
 }
 
 @media (max-width: 560px) {
